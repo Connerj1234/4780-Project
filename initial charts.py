@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load your cleaned dataset
-df = pd.read_csv("/Users/connerjamison/VSCode/GitHub/Business-App/filtered_dataset.csv")
+df = pd.read_csv("filtered_dataset.csv")
 
 numeric_cols = df.select_dtypes(include='number').columns
 

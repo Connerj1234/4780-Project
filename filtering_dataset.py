@@ -1,5 +1,5 @@
 import pandas as pd
-df = pd.read_csv("/Users/connerjamison/Downloads/Most-Recent-Cohorts-Institution 2.csv")
+df = pd.read_csv("Most-Recent-Cohorts-Institution 2.csv")
 
 # List the columns you want to keep (adjust these names to match your actual CSV headers)
 columns_to_keep = [
